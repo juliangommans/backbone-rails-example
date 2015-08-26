@@ -1,0 +1,2 @@
+<% console.log "IT FINALLY WORKED", @ %>
+<a href="#"><%= @name %></a>
