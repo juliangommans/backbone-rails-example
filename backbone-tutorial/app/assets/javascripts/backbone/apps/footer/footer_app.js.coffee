@@ -3,7 +3,6 @@
 
   API =
     showFooter: ->
-      console.log "footer has landed"
       FooterApp.Show.Controller.showFooter()
 
   FooterApp.on "start", ->

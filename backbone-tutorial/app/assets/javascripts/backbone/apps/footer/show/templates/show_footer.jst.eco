@@ -1,1 +1,7 @@
-<div id="footer"><p>This is a professional website</p></div>
+
+<% console.log "testing", @ %>
+<div id="footer">
+  <div class="container">
+    <p>This is a professional website - Mr(s) <%= @full_name %></p>
+  <div>
+</div>

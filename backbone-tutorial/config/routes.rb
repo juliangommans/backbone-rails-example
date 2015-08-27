@@ -1,7 +1,12 @@
 BackboneTutorial::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-  root to: "application#index"
+  root "application#index"
+
+  # get 'users' => 'users#index'
+
+  resources :users
+  resources :leads, :only => [:index]
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
